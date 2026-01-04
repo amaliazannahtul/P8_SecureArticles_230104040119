@@ -1,0 +1,13 @@
+{
+  "name": "p8-secure-articles-230104040119",
+  "version": "1.0.0",
+  "description": "Praktikum 8 WSE - Secure REST API",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
