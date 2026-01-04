@@ -1,0 +1,43 @@
+openapi: 3.0.3
+info:
+  title: Secure Articles API
+  version: 1.0.0
+servers:
+  - url: https://your-gummy-url.app
+
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        "200":
+          description: OK
+
+  /api/auth/login:
+    post:
+      summary: Login
+      responses:
+        "200":
+          description: Access token
+
+  /api/articles:
+    get:
+      summary: List articles
+      responses:
+        "200":
+          description: OK
+    post:
+      summary: Create article
+      security:
+        - bearerAuth: []
+      responses:
+        "201":
+          description: Created
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      
