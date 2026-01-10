@@ -47,7 +47,13 @@ Health Check Endpoint (/health), penggunaan Correlation-ID pada setiap request, 
 Dokumentasi API dibuat menggunakan OpenAPI Specification dan tersedia pada endpoint /docs.
 
 ## Evidence Pengujian
-Screenshot Register User, Screenshot Login User, Screenshot Create Article, Screenshot List Articles (Pagination), Screenshot Update atau Delete Article, Screenshot Health Check, dan Screenshot Header Correlation-ID.
+![1000286869](https://github.com/user-attachments/assets/f84e6dad-7107-4ca7-a4b3-0d9bcd517a90)
+![1000281423](https://github.com/user-attachments/assets/77d8662a-5ea1-4855-b069-e2a85886c651)
+![1000281422](https://github.com/user-attachments/assets/cded09b2-0b88-4696-819a-bf1f5d73b6e9)
+![1000281420](https://github.com/user-attachments/assets/4221df82-acc8-4b07-90b3-e6841ed3cfe4)
+![1000281415](https://github.com/user-attachments/assets/9b14fa3d-1b2b-423a-a069-96873dbc9ef3)
+![1000281414](https://github.com/user-attachments/assets/8d216dda-c564-4330-8bc9-e1065643052a)
+ 
 
 ## Catatan Akhir
 Project ini menitikberatkan pada perancangan arsitektur, dokumentasi API, serta penerapan konsep keamanan dan observability sesuai standar Web Service Engineering dan siap dikembangkan ke tahap implementasi backend penuh.
